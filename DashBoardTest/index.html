@@ -1,30 +1,89 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
+<html>	
 
-	</head>
-	<body>
+<head>
+	<title>scrolly</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=News+Cycle:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/scrolly.css"/>
+
+</head>
+
+<body>
+
+<div class="container">
+	<div class="title-container">
+		<div class="header">
+			<h1>Community Dashboard</h1>
+		</div>
+
+		<div class="sub-header">
+			<h3>RI Foundation Sectors</h3>
+
+			<div id="nav">
+				<ul>
+					<li><a class="active" href="#education">Education</a></li>
+					<li><a href="#human-services">Human Services</a></li>
+					<li><a href="#">Arts/Culture</a></li>
+					<li><a href="#">Health</a></li>
+					<li><a href="#">Environment</a></li>
+					<li><a href="#">Workforce</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<p>Welcome to the Community Dashboard!</p>
 			
-			<div id="SNAP" style="float:left; padding-right:8px;">
-				<script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:654px; height:629px;"><noscript><a href="#"><img alt="SNAP " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;SN&#47;SNAP_0&#47;SNAP&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="654" height="629" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="SNAP_0&#47;SNAP" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;SN&#47;SNAP_0&#47;SNAP&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /></object></div><div style="width:554px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>	
-			</div>	
-			<div id="HEADSTART" style="float:left; padding-right:8px;">
-				<script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:654px; height:629px;"><noscript><a href="#"><img alt="Dashboard 1 " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;He&#47;HeadStartParticipation&#47;Dashboard1&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="654" height="629" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="HeadStartParticipation&#47;Dashboard1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;He&#47;HeadStartParticipation&#47;Dashboard1&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:554px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>	
+			<p>Want to know more about the issues you care about in Rhode Island? Our community dashboard, developed with The Providence Plan, provides data on key indicators in the Foundation's areas of work, beginning with education and health care (more data to follow). It is our hope that this will help YOU become more informed and more engaged in issues that are central to Rhode Island's quality of life.</p>
+		</div>
+	</div>
+<!-- Sectors -->
+	<div id="scrolly-content">
+		<div class="sector" id="education">
+			<div class="header">
+				<h2>Education</h2>
 			</div>
-			<div id="CHILDHEALTH" style="float:left; padding-right:4px;">	
-				<script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:654px; height:629px;"><noscript><a href="#"><img alt="Child Health " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ra&#47;Race_Ethnicity_Birth&#47;ChildHealth&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="654" height="629" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="Race_Ethnicity_Birth&#47;ChildHealth" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ra&#47;Race_Ethnicity_Birth&#47;ChildHealth&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:654px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>	
+
+			<div class="content">
+				<p>These indicators of student outcomes and educational leadership provide a snapshot of the state of public education in Rhode Island, including independent charter schools. The Foundation's goal in the education sector is to help reduce statewide drop-out rates for at-risk students. Here are a couple of charts to help depict the graduation rates our state.</p>
 			</div>
-			<div id="TANF" style="float:left; padding-right:8px;">
-				<script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:654px; height:719px;"><noscript><a href="#"><img alt="TANF Dash " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;TA&#47;TANF&#47;TANFDash&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="654" height="719" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="TANF&#47;TANFDash" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;TA&#47;TANF&#47;TANFDash&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:654px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>	
+
+			<iframe src="http://public.tableausoftware.com/views/Education_6/FourYearGraduationRate?:embed=y&:display_count=no" seamless="seamless">
+			</iframe>
+
+		</div><!--End Education -->
+
+		<div class="sector" id="human-services">
+			<div class="header">
+				<h2>Human Services</h2>
 			</div>
-			<div id="FOSTER" style="align:left; padding-right:4px;">	
-				<script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:1024px; height:694px;"><noscript><a href="#"><img alt="Dashboard 1 " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ou&#47;OutofHomePlacement&#47;Dashboard1&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="1024" height="694" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="OutofHomePlacement&#47;Dashboard1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ou&#47;OutofHomePlacement&#47;Dashboard1&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:1024px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>	
+
+			<div class="content">
+				<p>The Foundation's goals for our work in the health sector are to reduce the number of Rhode Islanders without a primary care "medical home" and to increase the number of primary care physicians practicing in Rhode Island. The indicators in this section provide critical information about population health and access to care in Rhode Island. Explore data on access to care, chronic disease, and health behavior in our state.</p>
 			</div>
-			<div id="FOSTERPIE" style="align:left; padding-right:4px;">	
-				<script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:1024px; height:694px;"><noscript><a href="#"><img alt="Dashboard 2 " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ou&#47;OutofHomePlacement&#47;Dashboard2&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="1024" height="694" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="OutofHomePlacement&#47;Dashboard2" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ou&#47;OutofHomePlacement&#47;Dashboard2&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:1024px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"><a href="http://www.tableausoftware.com/public/about-tableau-products?ref=http://public.tableausoftware.com/views/OutofHomePlacement/Dashboard2" target="_blank">Learn About Tableau</a></div></div>		
-			</div>
-			<div id="HealthStack" style="align:left; padding-right:4px;">	
-				<script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauPlaceholder" style="width:1154px; height:769px;"><noscript><a href="#"><img alt="Dashboard 1 " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ch&#47;ChildrensHealthInsurance&#47;Dashboard1&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz" width="1154" height="769" style="display:none;"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="ChildrensHealthInsurance&#47;Dashboard1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;Ch&#47;ChildrensHealthInsurance&#47;Dashboard1&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:1154px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"></div></div>
-			</div>
-	</body>
+
+			<iframe src="http://public.tableausoftware.com/views/HumanServices_0/ChildrenInPoverty?:embed=y&:display_count=no" seamless="seamless">
+			</iframe>
+			
+		</div><!--End Human Service -->
+	</div>
+<!--End Sectors -->
+
+</div><!-- end container-->
+
+<div id="footer">
+	<div class="content">
+		Rhode Island Foundation -- Community Dashboard 
+	</div>
+
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scrolly.js"></script>
+
+
+</body>
 </html>
