@@ -26,32 +26,41 @@
     <div class='container-fluid>'
       <div class='row-fluid'>
         <div class='span4'>
-  <p><a href='http://provplan.org/'><img src='http://provplan.org/assets/uploads/images/ProvPlan_SolidLogo_Layered.png'></p></a>
-  <p>Households earning less than $50,000 a year qualify for free tax preparation. Find a location by you and call to make an appointment.</p>
-  <p>This is a free tool created by the <a href='http://provplan.org'>Providence Plan</a> </p>
-          <div class='well'>
-            <h4>
-              Address <small>(<a id='find_me' href='#'>find me</a>)</small>
-            </h4>
-            <input class='input-block-level' id='search_address' placeholder='Enter an address or an intersection' type='text' />
-            <label>
-              within
-              <select class='input-small' id='search_radius'>
-				<option value='16100'>10 miles</option>
-				<option value='32200'>20 miles</option>
-              </select>
-            </label>
-            <input class='btn btn-primary' id='search' type='button' value='Search' />
-            <button class='btn' id='reset'>Reset</button>
-          </div>
+		  <p><a href='http://provplan.org/'><img src='http://provplan.org/assets/uploads/images/ProvPlan_SolidLogo_Layered.png'></p></a>
+		  <p>Households earning less than $50,000 a year qualify for free tax preparation. Find a location by you and call to make an appointment.</p>
+		  <p>This is a free tool created by the <a href='http://provplan.org'>Providence Plan</a> </p>
+				  <div class='well'>
+					<h4>
+					  Address <small>(<a id='find_me' href='#'>find me</a>)</small>
+					</h4>
+					<input class='input-block-level' id='search_address' placeholder='Enter an address or an intersection' type='text' />
+					<label>
+					  within
+					  <select class='input-small' id='search_radius'>
+						<option value='16100'>10 miles</option>
+						<option value='32200'>20 miles</option>
+					  </select>
+					</label>
+					<input class='btn btn-primary' id='search' type='button' value='Search' />
+					<button class='btn' id='reset'>Reset</button>
+				  </div>
+		  
+		 <p class='alert alert-info lead' id='result_count'></p>
+		  <div id="legend">
+			<img src="C:\Users\rkelly\Documents\GitHub\pp-generic\TaxMap\Legend.png">
+		</div>
+			<p> Appointments are highly recommended. Those listed as "AARP Tax Aide" give seniors priority.</p>
   
- <p class='alert alert-info lead' id='result_count'></p>
-  <p> Appointments are highly recommended. Those listed as "AARP Tax Aide" give seniors priority.</p>
-</div>
+		
+  
+  
+		</div>
+
+
         <div class='span8'>
           <div id='map_canvas'></div>
           <p class='pull-right'>
-           </a>Locations provided by <a href='http://economicprogressri.org'>Economic Progress Institute.</a>  Built using the opensource template: <a href='http://derekeder.com/searchable_map_template/'>Searchable Map Template</a>.
+           </a>Locations provided by <a href='http://www.irs.gov/Individuals/Free-Tax-Return-Preparation-for-You-by-Volunteers'>IRS Volunteer Income Tax Assistance (VITA) and the Tax Counseling for the Elderly (TCE)</a>  Built using the opensource template: <a href='http://derekeder.com/searchable_map_template/'>Searchable Map Template</a>.
         </p>
         </div>
       </div>
