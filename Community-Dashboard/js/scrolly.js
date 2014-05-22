@@ -1,28 +1,28 @@
-//http://jsfiddle.net/technotarek/YbT7r/
+
 
 /*Tab functionality*/
 $(document).ready(function ($) {
     $('#tabs').tab();
-
     var indicator = $('.dropdown-menu li a');
     indicator.click(function(){
         //select the href value 
         var href = $(this).attr('href');
-        console.log(href);
-
         //find element with this matching id
         var id = $(href +' iframe');
-
         //get source url
         var src_url = id.attr('data-src');
-
         //change attr 'data-src' to src
         id.attr('src', src_url);
     });
-
 });
-/*END Tab functionality*/
 
+/*On load*/
+$(function(){
+    addHomeBtn();
+    initNav();
+});
+
+/*Util Functions*/
 function addHomeBtn(){
     var theWindow = $(window);
     var windowTop;
@@ -67,8 +67,3 @@ function initNav(){
       moveContent(self.attr("href"));
     })
 }
-
-$(function(){
-    addHomeBtn();
-    initNav();
-});
