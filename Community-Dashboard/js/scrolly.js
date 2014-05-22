@@ -1,22 +1,27 @@
+//http://jsfiddle.net/technotarek/YbT7r/
+
 /*Tab functionality*/
 $(document).ready(function ($) {
-  $('#tabs').tab();
+    $('#tabs').tab();
 
-  var indicator = $('.dropdown-menu li a');
+    var indicator = $('.dropdown-menu li a');
 
-  indicator.click(function(){
-    //select the href value 
-    var href = $(this).attr('href');
+    indicator.click(function(){
+        //select the href value 
+        var href = $(this).attr('href');
+        console.log(href);
 
-    //replace the # sign
-    href = href.replace(/\#/, "");
-    console.log(href);
+        //find element with this matching id
+        var id = $(href +' iframe');
 
-    //find element with this matching id
+        //get source url
+        var src_url = id.attr('data-src');
 
-    //change attr 'data-src' to src
-    
-  });
+        //change attr 'data-src' to src
+        id.attr('src', src_url);
+
+        //console.log(id);
+    });
 
 });
 /*END Tab functionality*/
