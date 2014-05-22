@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5{
 	font-size: 1.25em;
 }
 
-#divToAddHomeBtn{
+#intro-txt{
 	height: 285px;
 }
 
@@ -507,7 +507,7 @@ h1, h2, h3, h4, h5{
 		font-size: 1.15em;
 	}
 
-	#divToAddHomeBtn {
+	#intro-txt {
 		height: 293px;
 		/*height: 269px;*/
 	}
@@ -544,7 +544,7 @@ h1, h2, h3, h4, h5{
 		margin: 0 0 0 430px;
 	}
 
-	#divToAddHomeBtn {
+	#intro-txt {
 		height: 325px;
 	}
 

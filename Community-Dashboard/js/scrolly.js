@@ -5,7 +5,6 @@ $(document).ready(function ($) {
     $('#tabs').tab();
 
     var indicator = $('.dropdown-menu li a');
-
     indicator.click(function(){
         //select the href value 
         var href = $(this).attr('href');
@@ -19,8 +18,6 @@ $(document).ready(function ($) {
 
         //change attr 'data-src' to src
         id.attr('src', src_url);
-
-        //console.log(id);
     });
 
 });
@@ -29,7 +26,7 @@ $(document).ready(function ($) {
 function addHomeBtn(){
     var theWindow = $(window);
     var windowTop;
-    var addHMBtn = $('#divToAddHomeBtn');
+    var addHMBtn = $('#intro-txt');
     var divXPos = addHMBtn.position().top;
     var HMBtn = document.getElementById('home-btn');
 
