@@ -3,7 +3,7 @@
 /*Tab functionality*/
 $(document).ready(function ($) {
     $('#tabs').tab();
-    var indicator = $('.dropdown-menu li a');
+    var indicator = $('.tab-container #tabs li a');
     indicator.click(function(){
         //select the href value 
         var href = $(this).attr('href');
