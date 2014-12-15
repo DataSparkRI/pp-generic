@@ -296,10 +296,12 @@ h1, h2, h3, h4, h5{
 }
 
 #nav{
-	width: 1111px;
+	/*width: 1111px;*/
 	height: 35px;
 	margin: 20px auto 10px auto;
+	padding-left:20px;
 	list-style-type: none;	
+	padding-left:25px;
 }
 
 #nav ul{
@@ -365,9 +367,9 @@ h1, h2, h3, h4, h5{
 	font-size: 1.25em;
 }
 
-#intro-txt{
+/*#intro-txt{
 	height: 285px;
-}
+}*/
 
 .title-container .content{
 	width: 100%;

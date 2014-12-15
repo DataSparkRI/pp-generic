@@ -62,7 +62,6 @@ function moveContent(targ){
 
 function initNav(){
     $("#nav li a").click(function(e){
-      e.preventDefault();
       var self = $(this);
       moveContent(self.attr("href"));
     })
